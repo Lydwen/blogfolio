@@ -10,3 +10,7 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+# All govendor imported files except the vendor.json containing the references
+/vendor/*
+!/vendor/vendor.json
